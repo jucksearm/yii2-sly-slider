@@ -1,7 +1,7 @@
 {
 	"name": "jucksearm/yii2-sly-slider",
 	"description": "Yii2 extension is a wrapper for the jquery slider 'sly' http://darsa.in/sly/",
-	"keywords": ["yii2","sly","jquery"],
+	"keywords": ["yii2","sly","jquery","slider","image slide"],
 	"type": "yii2-extension",
 	"license": "MIT License",
 	"authors": [
