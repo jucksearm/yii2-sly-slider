@@ -4,13 +4,13 @@
  * @author Jucksearm Boonmor <jucksearm.bkk@gmail.com> 
  */
 
-namespace jucksearm\yii2sly;
+namespace jucksearm\sly;
 
 use yii\web\AssetBundle;
 
 class SlyAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/jucksearm/yii2sly/assets';
+    public $sourcePath = '@vendor/jucksearm/yii-sly-slider/assets';
     public $css = [
         'css/sly.css'
     ];

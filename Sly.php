@@ -2,7 +2,7 @@
  /**
  * yii2 extension for the amazing jQuery Plugin: http://darsa.in/sly/
  * @version 1.1.0
- * @link https://github.com/jucksearm/yii2sly
+ * @link https://github.com/jucksearm/yii2-sly-slider
  * @author Jucksearm Boonmor <jucksearm.bkk@gmail.com>
  */
 
