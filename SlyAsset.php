@@ -10,7 +10,7 @@ use yii\web\AssetBundle;
 
 class SlyAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/jucksearm/yii-sly-slider/assets';
+    public $sourcePath = '@vendor/jucksearm/yii2-sly-slider/assets';
     public $css = [
         'css/sly.css'
     ];
