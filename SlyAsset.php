@@ -1,6 +1,6 @@
 <?php
 /**
- * @link https://github.com/jucksearm/yii2sly
+ * @link https://github.com/jucksearm/yii2-sly-slider
  * @author Jucksearm Boonmor <jucksearm.bkk@gmail.com> 
  */
 
