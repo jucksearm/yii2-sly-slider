@@ -1,4 +1,4 @@
-yii2sly / Yii2 extension
+yii2-sly-slider / Yii2 extension
 =
 
 Javascript `Sly` which can be found here: http://darsa.in/sly/
@@ -8,22 +8,22 @@ Support fot horizontal only
 
 ## Install via composer:
 ```
-  composer require "jucksearm/yii2sly"
+  composer require "jucksearm/yii2-sly-slider"
 ```
 OR add this to your composer.json require section
 
 ```json
-  "jucksearm/yii2sly": "*",
+  "jucksearm/yii2-sly-slider": "*",
 ```
 ## Install via zip:
 
-download file https://github.com/jucksearm/yii2sly/archive/master.zip
+download file https://github.com/jucksearm/yii2-sly-slider/archive/master.zip
 
 extract file to `vendor` folder as:
 ```php
    vendor
    |- jucksearm
-     |- yii2sly
+     |- yii2-sly-slider
        | ......
 ```
 
@@ -34,7 +34,7 @@ Example code here:
 
 ```php
 
-<?php echo jucksearm\yii2sly\Sly::widget([
+<?php echo jucksearm\sly\Sly::widget([
     'id' => 'slider',                           ** unique id
     'items'=> [
         ['content' => '<img src=""></img>'],    ** insert images
