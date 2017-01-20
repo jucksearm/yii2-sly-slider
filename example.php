@@ -1,4 +1,4 @@
-<?php echo \jucksearm\yii2sly\Sly::widget([
+<?php echo \jucksearm\sly\Sly::widget([
     'id' => 'basic',                          
     'items'=> [
         ['content' => '0'],
@@ -25,7 +25,7 @@
     ]
 ]); ?>
 
-<?php echo \jucksearm\yii2sly\Sly::widget([
+<?php echo \jucksearm\sly\Sly::widget([
     'id' => 'basic01',                          
     'items'=> [
         ['content' => '0'],

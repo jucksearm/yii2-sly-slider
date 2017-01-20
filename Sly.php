@@ -6,7 +6,7 @@
  * @author Jucksearm Boonmor <jucksearm.bkk@gmail.com>
  */
 
-namespace jucksearm\yii2sly;
+namespace jucksearm\sly;
 
 use Yii;
 use yii\base\Widget;
