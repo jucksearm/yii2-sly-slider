@@ -1,6 +1,6 @@
 # Options
 
-yii2sly widget default options as defined in the source.
+yii2-sly-slider default options as defined in the source.
 
 ```php
 'widgetOptions' => [
