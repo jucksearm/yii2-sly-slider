@@ -447,11 +447,11 @@ class Sly extends Widget
         if(!is_array($this->widgetOptions)) return false;
 
         foreach ($this->defaultOptions as $key => $value) {
+            if (!isset($this->widgetOptions[$key])) continue;
+            
             if (gettype($this->widgetOptions[$key]) == 'integer')
                 $this->defaultOptions[$key] = $this->widgetOptions[$key];
-
-            if (!isset($this->widgetOptions[$key])) continue;
-                
+    
                 $tmp = trim($this->widgetOptions[$key]);
 
             if (gettype($this->widgetOptions[$key]) != 'boolean' && empty($tmp)) continue;
