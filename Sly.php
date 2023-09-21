@@ -366,7 +366,7 @@ class Sly extends Widget
         if (!$this->defaultOptions['controlsActive']) return false;
 
         $options = ['class' => 'controls'];
-        $customClass = trim($this->defaultOptions['controlsClass']);
+        $customClass = $this->defaultOptions['controlsClass'] !== null ? trim($this->defaultOptions['controlsClass']) : null;
         if (!empty($customClass)) Html::addCssClass($options, $customClass);
 
         $type = $this->defaultOptions['controlsType'];
@@ -452,11 +452,11 @@ class Sly extends Widget
             if (gettype($this->widgetOptions[$key]) == 'integer')
                 $this->defaultOptions[$key] = $this->widgetOptions[$key];
     
-                $tmp = trim($this->widgetOptions[$key]);
+                $tmp = $this->widgetOptions[$key] !== null ? trim($this->widgetOptions[$key]) : null;
 
             if (gettype($this->widgetOptions[$key]) != 'boolean' && empty($tmp)) continue;
 
-            $this->defaultOptions[$key] = trim($this->widgetOptions[$key]);
+            $this->defaultOptions[$key] = $this->widgetOptions[$key] !== null ? trim($this->widgetOptions[$key]) : null;
         }
 
         return $this->defaultOptions;
