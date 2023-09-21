@@ -348,7 +348,7 @@ class Sly extends Widget
             $this->defaultOptions['pagesBarPosition'] == $position
         ) {
             $options = ['class' => 'pages'];
-            $customClass = trim($this->defaultOptions['pagesBarClass']);
+            $customClass = $this->defaultOptions['pagesBarClass'] !== null ? trim($this->defaultOptions['pagesBarClass']) : null;
             if (!empty($customClass)) Html::addCssClass($options, $customClass);
 
             echo Html::tag('ul', null, $options);
